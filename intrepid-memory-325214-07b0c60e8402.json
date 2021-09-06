@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "intrepid-memory-325214",
+  "private_key_id": "07b0c60e84028081d81f44b12b6883acd36b9798",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDXYoNOmRFVJdIq\neKiaUwCMu382adcX3h71Tf6XOwrixVS+6wUkaqhHShWtQBz2pJ3hhDj05wnL2oCz\n9mOTVB3PncBxVc8wJ92utraJXLR/vZtjG73N4Xu1lBQTT1F2TjohVOkReLhRw0cf\njKVfYH6+sYXeRk6HlwBHqyqRMZpe9cMMaYsDaGXkDTiJ1vJM8GYIbxyqLzl5/X9W\nLX6wmrxkdXFArls8nU7xlPQVc8KVp0AdXxQWkqsBT97c6Flm/cdFeebJTTWP2d3x\n19lr27fMd+NzC+3ryBr8z5Q1wlY2+c8wG7xjh/uuQX68L76bnEk87triMe8Bztgb\nXo60qamPAgMBAAECggEAEZc9oyc0N7CRlB9rocMCqfvMPXzycMQW4jD/CIntbyzv\nqXIXZuyBFuVxlMdGNkymilsarcHK1offeBM4+bjmgGThaUA5XjT7UYAhs2FLap1p\nOfRzkYOHb4KLCzKwtAlajQtax68E2sSoo+aAQSRn5ZopFUjHtCI8hx3vKZGUCopA\nizMVK+5Iu6cH+ALz55/KSNvlpndSBpOpgh8XkjrhHqlb7URVofv2gAX1rZdoINmm\nvriXQL2+5NzQ7UM7qFN0n4zdoUaFOaHa6TAbW2YdO6LPJvCDNLWITD0yReqBOH1b\na/s9TMtceRc8sW1WjBFpR0y5Xyrpg0FoSle1CKEicQKBgQDrB7cIbqqUQ/2CYQLL\n+aQaHD83qYsPhpRRSEW94doyagMjyFdCXmTU49V+vfNaFG/k5IDjk+mZKvVpRTO9\nFldN8rHdg/MqWKZo+ZV4g8KNySG7/2MJRek0cvxq/sVD0U2XOLSpblcaeaN2+ul2\nHOwPMFre6lDZ2e2/WvalkqchHwKBgQDqmhUXCfJHSRLESmhln0mfYCM+Whrr5hTt\nNbGH4HNsXukUW3alA1rFMTz/Xw3rzfeMkB1AinTb260XraamC5TBiyW5DnAXsQPw\nB4oeWoEo+QcOeT9s2hBOgPP4ctsnupBc695LzMS6QHf4LdfHDXUSGkG8UHF9szTX\nbipivmA5kQKBgQDg2jmu1IlXXZCsanlNgeEQpdOJQifrS5qcBOPMHMYukyO72RA6\nS6p1zh7TqZCmroS6XC4/C6RhyCqPcwhjr3sI9NZbkcBS1AsoxRbN/GhmU3V1sYgj\nOAI7DoMVLfa1wglUUojsy8aDaroLu1Mdj9/7TAyz1UJSmV8OQk1T7HD+iwKBgQC8\nxWr+9NPspFHjfHPwgXF+Op9hRqOu+Z4RGUlWqjZ2FxC5frdDJCXf0jTgz52mBj+Q\n7U18Z2yMlID9Mo+LwHncGpkqBQIRLjCa7ZYnwm93hpo0/T8Z2YWRhZXKbrEFkMsk\n2e4vU/9gVwuxuUGNO7jd7h7C5n/Lw21bg5u7hLBs4QKBgQDe5tMuOEmut7B6AH2V\numHQhDgzFc9Y6Cw0t6xDvenKDqNF7VziBILnk2i2Gp51nm5Zfd+DQZx/x5ZudA+k\nnowuhyK5+zTNqFNRDXojzQteA8UfBrn3e/APE7Nwv8cKR5EyVEPBU01zVFmxGaJj\n3qZ+NbAMlJJpNKh46x9tyflb1w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "lf-100@intrepid-memory-325214.iam.gserviceaccount.com",
+  "client_id": "100047826616910122762",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lf-100%40intrepid-memory-325214.iam.gserviceaccount.com"
+}
