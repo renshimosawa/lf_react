@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 
@@ -37,15 +37,27 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const App= () => {
-  const classes = useStyles();  
+  const [value, setValue] = useState('') 
+  const classes = useStyles(); 
+  async function quickstart() {
+    const auth = require('google-auth-library');
+    const vision = require('@google-cloud/vision');
+    const client = new vision.ImageAnnotatorClient();
+    const [result] = await client.labelDetection('./resources/wakeupcat.jpg');
+    const labels = result.labelAnnotations;
+    console.log('Labels:');
+    labels.forEach(label => console.log(label.description));
+  }
+  quickstart();
   return (
     <div>
-      {/* <img src="https://images.unsplash.com/photo-1624313976899-0fd4989a2fcd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"></img> */}
       <form className={classes.root} noValidate autoComplete="off">
-      <TextField id="filled-basic" label="URL" variant="filled" />
-</form>
+        <TextField id="filled-basic" label="URL" variant="filled" onChange={(event) => setValue(event.target.value)} />
+        <img src={value} style={{width:500}}></img>
+      </form>
     </div>
   )
 }
+//https://bit.ly/3h6dNma
 
 export default App
